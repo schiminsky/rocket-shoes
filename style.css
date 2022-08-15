@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  max-width: 1440px;
+  max-height: 1080px; 
+  margin: 0 auto;
+}
+
+header {
+  position: absolute;
+  background-color: transparent;
+  z-index: 999;
+  max-width: 1440px;
+}
+
+header .header-container {
+  position: relative;
+  margin: 40px auto;
+  background-color: transparent;
+  width: 1440px;
+}
+
+div .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: transparent;
+}
+
+div .div-menu {
+  display: flex;
+  background-color: transparent;
+}
+
+div .div-menu ul{
+  display: flex;
+  background-color: transparent;
+}
+
+div .div-menu li{
+  display: flex;
+  width: 160px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  background-color: transparent;
+}
+
+div .form-search input {
+  width: 220px;
+  height: 45px;
+  background: #FFFFFF;
+  text-indent: 42px;
+  border-width: 0;
+}
+
+div .form-search input::placeholder {
+  background-image: url(/assets/icon-search.svg);
+  background-repeat: no-repeat;
+  background-position: 10px 0px;
+  background-size: contain;
+  display: flex;
+  height: 22px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #9C9696;
+}
+
+div .div-cart {
+  display: flex;
+}
+
+div .div-cart button {
+  all: unset;
+  width: 34px;
+  height: 34px;
+  background-image: url(/assets/icon-bag.svg);
+  background-color: #C4C4C4;
+}
+
+main .main-container {
+  display: flex;
+  position: relative;
+}
+
+main .main {
+  display: flex;
+  background: #ECECED;
+}
+
+div .left-container {
+  display: flex;
+  width: 540px;
+  height: 914px;
+}
+
+div .right-container {
+  display: flex;
+  width: 900px;
+  height: 914px;
+  background: #C4C4C4;
+}
+
+div .left-container .container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 0 0 111px;
+}
+
+div .left-container .container h1{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  color: #000000;
+  width: 350px;
+  margin-top: 100px;
+  margin: initial;
+}
+
+div .left-container .container h2{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #9C9696;
+  margin-top: 21px;
+  margin-bottom: 21px;
+  width: 380px;
+}
+
+div .left-container .container p{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #000000;
+  margin: initial;
+}
+
+div .left-container .container button{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  width: 274px;
+  height: 90px;
+  background: #FF0000;
+  border: none;
+  margin: initial;
+  margin-top: 30px;
+}
+
+div .right-container  {
+  background: #C4C4C4;
+  width: 914px;
+}
+
+div .right-container .container {
+  background: #C4C4C4;
+
+}
+
+div .right-container .container .main-shoes {
+  background: #C4C4C4;
+  margin: 174px 146px 0 157px;
+}
+
+div .right-container .showcase {
+  display: flex;
+  justify-content: space-around;
+  background: #C4C4C4;
+}
+
+footer {
+  background: #ECECED;
+}
+
+footer .footer-container {
+  display: flex;
+  justify-content: center;
+  width: 1440px;
+}
+
+div .footer .img-footer {
+  display: flex;
+  width: 250px;
+  height: 166.33px;
+  margin-right: 90px;
+}
+
+div .footer {
+  display: flex;
+  align-items: center;
+}
+
+.footer p {
+  display: flex;
+  margin: 0 90px 0 0;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+div .more {
+  width: 437px;
+  height: 166px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+}
+
+div .footer .more p {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  background-color: #000;
+  text-indent: 100px;
+}
+
+
+
+
+
+
